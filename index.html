@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>Datepicker test file</title>
+    <script src="./js/datetimepicker.js" type="application/javascript"></script>
+    <link type="text/css" rel="stylesheet" href="./css/datetimepicker.css" media="all" />    
+  </head>
+  <body>
+    <p>This is a <strong>very</strong> rough version of this date/time picker</p>
+    <form>
+      <input type="text" id="begin_cal" onblur="updateEndDate(this, 'end_cal');" onclick="showCalendar(event,'calendar',this,'2014-01-29','2014-03-15');" name="begindate" value="2014-02-20" onmousemove="ShowTooltip(event, 'Click me to see a datepicker');" onmouseout="HideTooltip(event);" readonly />
+      <input type="text" id="end_cal" onclick="showCalendar(event,'calendar',this,document.getElementById('begin_cal').value,'2014-03-15');" name="enddate" value="2014-02-24" onmousemove="ShowTooltip(event, 'Click me to see a datepicker');" onmouseout="HideTooltip(event);" readonly />
+    </form>
+    <!-- Hidden Divs -->
+    
+    <div class="hide" id="calendar"></div>
+    <div class="hide" id="tooltip"></div>
+  </body>
+</html>

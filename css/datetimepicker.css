@@ -1,0 +1,87 @@
+/**
+ * @file
+ * @author <msypolt@gmail.com>
+ * 
+ * Datepicker CSS Styling 
+ */
+
+/* Code for expanding and Contracting divs */
+.hide {display: none}
+.show {display: block}
+.expand {cursor: pointer}
+
+
+/* used for displaying success or error */
+.success {background: #88ff88; border: 1px solid #004400; color: #004400; padding:2px;}
+.warning {background: #ffff88; border: 1px solid #444400; color: #004400; padding:2px}
+.error {background: #ff8888;  border: 1px solid #440000; color: #440000; padding:2px}
+
+/* form elements */
+.columns {clear: both; display:block}
+.columns div {float:left; width:300px; padding-left: 22px; text-indent: -22px ;}
+label {display:block; float:left; clear:both; font-style: italic; min-width:250px;}
+button {border: 2px solid <?php echo $primary;?>;}
+input {border: 2px solid <?php echo $primary;?>;}
+select {min-width: 200px;}
+.float {float:left;}
+.right {float: right;}
+.text-input {min-width:400px}
+textarea {float:left;border: 2px solid #888888; font-family:arial; min-width:400px; height:100px}
+.req {border: 3px solid #000000}
+.current {background-color: <?php echo $accent; ?>}
+.small {font-size:10px;}
+
+/* Span styles and such */
+.bold {font-weight:bold;}
+.italic {font-style:italic;}
+.breadcrumbs {font-size: 12px}
+.page_content li {font-size: 14px}
+table {width:100%; background-color: #000000;}
+th {text-align: left; font-weight:bold; background-color: #999999;}
+td {text-align: left; background-color: #ffffff;}
+.hand {cursor: pointer}
+.checked {background-color:#ffff00;}
+.clear {clear:both;}
+
+/* calendar */
+.calendar {background-color: #ffff99; width: 200px; padding: 10px; border-radius: 10px; border: 1px solid #000000}
+.calendar table {width: 100%; background-color:#666666}
+.calendar td, .calendar th {text-align: center}
+.calendar button {border: 1px solid #888888; background-color: #ffff66;font-size: 10px; border-radius: 4px}
+.othermonth {background-color: #aaaaaa;}
+.startpoint {background-color: #ffff99;}
+.today {background-color: #ff0000; font-weight: bold; color: #ffffff}
+.calendar .hand:hover {background-color: #ffff00; font-weight: bold;}
+.inactive {color: #dddddd; font-weight: normal;}
+.othermonth a {font-weight: normal; font-color: #999999}
+.currentmonth {}
+
+/* Dialogue boxes*/
+.inner  {padding: 10px}
+.dialogue {
+  z-index: 9;
+  position:fixed;
+  top: 10%;
+  min-width:200px;
+  min-height:200px;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius: 10px;
+  background-color: #ffffff;
+  max-width:90% !important;
+  max-height:80%  !important;
+  overflow: auto;
+  opacity: 1;
+  border: #000000 solid 1px;
+}
+.dialoguebg{
+  z-index: 8;
+  position:fixed;
+  top: 0px;
+  left: 0px;
+  min-height: 100%;
+  min-width: 100%;
+  opacity: 0.5;
+  background-color: #777777;
+}
+
