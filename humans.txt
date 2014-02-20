@@ -1,0 +1,12 @@
+/* TEAM */
+
+  Developer & Project Manager: Michael Sypolt
+  Email: msypolt@gmail.com
+  Twitter: @TransitGuru
+  Location: Pittsburgh, PA
+
+/* SITE */
+  Doctype: HTML5
+  IDE: NetBeans 7.4
+  OSes: Debian GNU/Linux, Linux Mint, Ubuntu GNU/Linux
+  Software: Inkscape, GIMP, Git
